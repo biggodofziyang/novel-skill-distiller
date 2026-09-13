@@ -1,0 +1,32 @@
+system:
+  name: "网文创作Skill蒸馏系统"
+  version: "1.0.0"
+  log_level: "INFO"
+  max_upload_size_mb: 50
+
+analysis:
+  chunk_size: 8000
+  chunk_overlap: 500
+  max_workers: 4
+  dimensions:
+    - "节奏"
+    - "悬念"
+    - "人设"
+    - "世界观"
+    - "剧情架构"
+    - "文笔话术"
+    - "爽点"
+    - "避雷"
+
+distill:
+  similarity_threshold: 0.85
+  conflict_threshold: 0.75
+  micro_weight_delta: 5
+  max_versions: 10
+
+creation:
+  steps:
+    - "世界观"
+    - "人设"
+    - "前三章"
+  auto_validate: true
