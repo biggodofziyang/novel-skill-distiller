@@ -1,0 +1,42 @@
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local launcher/runtime output
+.launcher-runtime.json
+launcher.log
+*_python.txt
+*_check.txt
+py_*.txt
+wb_python.txt
+check_py.py
+env_path.txt
+safe_bin.txt
+python_search*.txt
+node_check.txt
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+config/api_config.yaml
+*.key
+*.pem
+
+# Private/local application data
+data/logs/
+data/storage/
+data/workspaces/
+data/temp/
+data/skill_library/
+
+# User-provided material and generated screenshots/packages
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.gif
