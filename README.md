@@ -1,5 +1,8 @@
 # 网文创作 Skill 蒸馏系统 / Novel Skill Distiller
 
+[![Tests](https://github.com/biggodofziyang/novel-skill-distiller/actions/workflows/codeql.yml/badge.svg)](https://github.com/biggodofziyang/novel-skill-distiller/actions/workflows/codeql.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 一个面向长篇网文创作的本地工作台。它把素材拆解、规则蒸馏、分步创作、章节写作和质量反馈放在同一个可持续迭代的项目空间里，并通过 OpenAI 兼容接口调用模型。
 
 > This is a local-first writing workspace for long-form web fiction. It combines material analysis, rule distillation, step-by-step story planning, chapter writing, and quality feedback in a versionable project space, using OpenAI-compatible APIs.
@@ -97,6 +100,17 @@ python -m pytest -q
 ```
 
 欢迎提交问题、改进建议和 Pull Request。请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 参与项目
+
+你可以通过 GitHub Issues 报告问题，通过 Discussions 分享写作流程、Skill 和使用案例，也可以提交 Pull Request。请不要上传小说原文、API 密钥或未经授权的第三方材料。
+
+## 路线图
+
+- 更完善的多模型路由和 API 错误诊断
+- Skill 版本对比、回滚和冲突合并
+- 可导出的项目模板与匿名示例工程
+- 更完整的自动化端到端测试
 
 ## 许可证
 
